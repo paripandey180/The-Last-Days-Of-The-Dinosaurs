@@ -1,1 +1,1 @@
-[text](<../Dinosaur Fossil Exhibit.pdf>)
+![alt text](<Dinosaur Fossil Exhibit.png>)
