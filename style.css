@@ -19,7 +19,7 @@ h4 {
 .hero {
   position: relative;
   height: 95vh;
-  background: url("dinosaur-period.png") center/cover no-repeat;
+  background: url("assets/dinosaur-period.png") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;

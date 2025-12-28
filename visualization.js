@@ -2,12 +2,12 @@ console.log("Visualization JS loaded!");
 
 // Icons for the different dinosaur types
 const typeIcons = {
-  "small theropod": "small-theropod-sticker.png",
-  "large theropod": "large-theropod-sticker.png",
-  sauropod: "sauropods-sticker.png",
-  ornithopod: "ornithopods-sticker.png",
-  ceratopsian: "ceratopsians-sticker.png",
-  "armored dinosaur": "armored-dinosaurs-sticker.png",
+  "small theropod": "assets/small-theropod-sticker.png",
+  "large theropod": "assets/large-theropod-sticker.png",
+  sauropod: "assets/sauropods-sticker.png",
+  ornithopod: "assets/ornithopods-sticker.png",
+  ceratopsian: "assets/ceratopsians-sticker.png",
+  "armored dinosaur": "assets/armored-dinosaurs-sticker.png",
 };
 
 // Colors for the different dinosaur types
