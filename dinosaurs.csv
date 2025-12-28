@@ -1,0 +1,33 @@
+occurrence_no,name,diet,type,length_m,max_ma,min_ma,region,lng,lat,class,family
+130294,Protarchaeopteryx,omnivorous,small theropod,2,130,122.46,Liaoning,120.73333,41.799999,Saurischia,Archaeopterygidae
+130295,Caudipteryx,omnivorous,small theropod,1,130,122.46,Liaoning,120.73333,41.799999,Saurischia,Caudipterygidae
+139242,Gorgosaurus,carnivorous,large theropod,8.6,83.5,70.6,Alberta,-111.528732,50.740726,Saurischia,Tyrannosauridae
+139255,Albertosaurus,carnivorous,large theropod,9,72.1,66,Alberta,-112.981903,51.8046,Saurischia,Tyrannosauridae
+139260,Isisaurus,herbivorous,sauropod,18,72.1,66,Maharashtra,80.366669,21.183332,Saurischia,
+139262,Daspletosaurus,carnivorous,large theropod,9,83.5,70.6,Alberta,-111.511902,50.742401,Saurischia,Tyrannosauridae
+139290,Daspletosaurus,carnivorous,large theropod,9,83.5,70.6,Alberta,-111.485008,50.751526,Saurischia,Tyrannosauridae
+139291,Albertosaurus,carnivorous,large theropod,9,70.6,66,Alberta,-112.934799,51.928299,Saurischia,Tyrannosauridae
+139292,Tyrannosaurus,carnivorous,large theropod,12,72.1,66,Alberta,-113.0289,51.906399,Saurischia,Tyrannosauridae
+139293,Tyrannosaurus,carnivorous,large theropod,12,72.1,66,Alberta,-113.23333,51.933334,Saurischia,Tyrannosauridae
+139306,Amygdalodon,herbivorous,sauropod,15,180.1,171.6,Chubut,-69.51667,-43.966667,Saurischia,
+139307,Camarasaurus,herbivorous,sauropod,23,157.3,145,Colorado,-108.63855,39.031395,Saurischia,
+150311,Apatosaurus,herbivorous,sauropod,21,157.3,145,Colorado,-105.187332,39.653423,Saurischia,Diplodocidae
+150350,Diplodocus,herbivorous,sauropod,26,157.3,145,Wyoming,-105.916199,42.152302,Saurischia,Diplodocidae
+220038,Kotasaurus,herbivorous,sauropod,9,199.3,182.7,Andhra Pradesh,79.845581,19.106924,Saurischia,
+220099,Troodon,carnivorous,small theropod,2,85.8,70.6,Montana,-113.75,48.633301,Saurischia,Troodontidae
+248062,Troodon,carnivorous,small theropod,2,83.5,70.6,Montana,-109.900002,46.200001,Saurischia,Troodontidae
+1127541,Richardoestesia,carnivorous,small theropod,1.5,93.5,89.3,Navoi,62.655315,42.117294,Saurischia,Dromaeosauridae
+1146162,Yangchuanosaurus,carnivorous,large theropod,10,163.5,145,Sichuan,105.300003,30.15,Saurischia,Metriacanthosauridae
+1280940,Baryonyx,carnivorous,large theropod,10,129.4,125,La Rioja,-2.281047,42.145988,Saurischia,Spinosauridae
+1333030,Velociraptor,carnivorous,small theropod,1.8,83.6,72.1,Omnogov,99.599998,43.299999,Saurischia,Dromaeosauridae
+1191069,Rhabdodon,herbivorous,ornithopod,4,72.1,66,Hunedoara,23.007,45.716702,Ornithischia,Rhabdodontidae
+1216614,Iguanodon,herbivorous,ornithopod,10,145,136.4,England,0.514942,50.846462,Ornithischia,
+1222291,Iguanodon,herbivorous,ornithopod,10,136.4,130,England,-1.42502,50.637718,Ornithischia,
+1231949,Prosaurolophus,herbivorous,ornithopod,7.6,83.5,66,Alberta,-110.485802,49.3601,Ornithischia,Hadrosauridae
+1245127,Iguanodon,herbivorous,ornithopod,10,145,125,Valenciana,-0.185004,40.593102,Ornithischia,
+1247527,Psittacosaurus,herbivorous,ceratopsian,2,109,99.6,Dornogov,108.446671,45.849998,Ornithischia,Psittacosauridae
+1262140,Pinacosaurus,herbivorous,armored dinosaur,5,85.8,70.6,Omnogov,103.298889,44.256943,Ornithischia,Ankylosauridae
+1264867,Iguanodon,herbivorous,ornithopod,10,145,140.2,Castilla y León,-2.386667,42.061111,Ornithischia,
+1328246,Shantungosaurus,herbivorous,ornithopod,15,72.1,66,Shaanxi,109.901367,33.65221,Ornithischia,Hadrosauridae
+1328396,Protoceratops,herbivorous,ceratopsian,1.8,85.8,70.6,Omnogov,103.298889,44.256943,Ornithischia,
+1364695,Iguanodon,herbivorous,ornithopod,10,145,139.8,Niedersachsen,9.959357,52.341167,Ornithischia,

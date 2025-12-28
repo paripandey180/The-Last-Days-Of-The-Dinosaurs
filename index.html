@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinosaur Fossil Exhibit</title>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lora&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-text justify-center">
+        <h1>THE LAST DAYS OF THE DINOSAURS</h1>
+        <h3>Homework #5 - Custom Visualization Design</h3>
+        <h3>Pari Pandey - ppande25@asu.edu</h3>
+      </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <section class="section">
+      <h2 class="section-title">A Journey Into Earth’s Ancient Past</h2>
+      <p class="subtext">
+        For millions of years, dinosaurs dominated our planet. Their fossils now
+        serve as clues that help scientists understand how they lived and how
+        they died. This exhibit explores the final days of these majestic
+        creatures through their fossil records.
+      </p>
+    </section>
+
+    <!-- Types of Dinosaurs Section -->
+    <section class="section">
+      <h2 class="section-title">Types of Dinosaur in This Exhibit</h2>
+      <p class="subtext">
+        These are the major groups of dinosaurs represented in this exhibit.
+        Their forms, diets, and evolutionary traits shaped prehistoric
+        ecosystems.
+      </p>
+
+      <div class="cards-grid">
+        <div class="card">
+          <img
+            class="card-image"
+            src="small-theropod.png"
+            alt="small theropod"
+          />
+          <h3>Small Theropods</h3>
+          <p>
+            Small, agile, feathered dinosaurs closely related to early birds.
+            Many were swift omnivores or opportunistic hunters that filled
+            diverse ecological niches.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            class="card-image"
+            src="large-theropod.png"
+            alt="large theropod"
+          />
+          <h3>Large Theropods</h3>
+          <p>
+            Apex predators such as Tyrannosaurs. Massive jaws, powerful legs,
+            and strong ecological influence.
+          </p>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="sauropods.png" alt="sauropods" />
+          <h3>Sauropods</h3>
+          <p>
+            Long-necked, gigantic herbivores. They shaped vegetation patterns
+            and dominated many landscapes.
+          </p>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="ornithopods.png" alt="ornithopods" />
+          <h3>Ornithopods</h3>
+          <p>
+            Fast-moving herbivores with strong hind legs and specialized chewing
+            systems. Many lived in herds and were vital to maintaining plant
+            diversity.
+          </p>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="ceratopsians.png" alt="ceratopsians" />
+          <h3>Ceratopsians</h3>
+          <p>
+            Horned dinosaurs known for their iconic frills and face horns. They
+            were resilient grazers and played a central role in Late Cretaceous
+            ecosystems.
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            class="card-image"
+            src="armored-dinosaurs.png"
+            alt="armored dinosaurs"
+          />
+          <h3>Armored Dinosaurs</h3>
+          <p>
+            Heavily built herbivores protected by bony plates, tail clubs, and
+            spikes. Their natural defenses made them formidable against large
+            predators.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Extinction Section -->
+    <section class="section">
+      <h2 class="section-title">What Caused Their Extinction?</h2>
+      <p class="subtext">
+        The Chicxulub asteroid is the most famous cause, the full extinction
+        story involves volcanic eruptions, climate change, ecosystem collapse,
+        and shifting environments. These factors together led to the end of the
+        dinosaur era.
+      </p>
+
+      <div class="section-images">
+        <img src="asteroid.png" alt="asteroid" />
+        <img src="volcano.png" alt="volcano" />
+        <img src="climate.png" alt="climate" />
+      </div>
+    </section>
+
+    <!-- Fossil's Location Section -->
+    <section class="section">
+      <h2 class="section-title">Where Fossils Were Found</h2>
+      <p class="subtext">
+        Each fossil reveals information about not only the creature but also the
+        environment it lived in. From Sichuan, China to India, dinosaur remains
+        were discovered in various parts of the world and they tell the story of
+        ancient ecosystems.
+      </p>
+
+      <div class="section-images">
+        <img src="china.png" alt="china" />
+        <img src="india.png" alt="india" />
+        <img src="spain.png" alt="spain" />
+      </div>
+    </section>
+
+    <!-- Visualisation Section -->
+    <section id="visualization-section">
+      <h2 class="section-title">Interactive Fossil Visualization</h2>
+      <p class="subtext">
+        Explore dinosaur size, diet, fossil location, and their final moments
+        through a custom interactive data visualization.
+      </p>
+
+      <!-- Filter Controls -->
+      <div class="filter-controls">
+        <h2>Filter by Type</h2>
+        <button class="filter-btn active" data-filter="all">
+          All Dinosaurs
+        </button>
+        <button class="filter-btn" data-filter="small theropod">
+          Small Theropods
+        </button>
+        <button class="filter-btn" data-filter="large theropod">
+          Large Theropods
+        </button>
+        <button class="filter-btn" data-filter="sauropod">Sauropods</button>
+        <button class="filter-btn" data-filter="ornithopod">Ornithopods</button>
+        <button class="filter-btn" data-filter="ceratopsian">
+          Ceratopsians
+        </button>
+        <button class="filter-btn" data-filter="armored dinosaur">
+          Armored Dinosaurs
+        </button>
+      </div>
+
+      <!-- Statistics Panel -->
+      <div class="stats-panel">
+        <h2>Exhibition Statistics</h2>
+        <span class="stat-item"
+          >Showing:
+          <span class="stat-number" id="visibleCount">0</span> dinosaurs</span
+        >
+        <span class="stat-item"
+          >Locations:
+          <span class="stat-number" id="locationCount">0</span> regions</span
+        >
+        <span class="stat-item"
+          >Average Length:
+          <span class="stat-number" id="avgLength">0</span>m</span
+        >
+      </div>
+
+      <!-- Visualization -->
+      <div id="vis-placeholder">
+        <div id="visualization"></div>
+      </div>
+
+      <!-- Dinosaur Details -->
+      <div id="side-panels justify-center">
+        <div id="info-panel">
+          <h2>Dinosaur Details</h2>
+          <div id="info-content">
+            <p>Hover over a dinosaur to see details.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legend -->
+      <div class="legend">
+        <div class="legend-section">
+          <h2>Dinosaur Types</h2>
+          <div class="legend-item">
+            <img
+              src="small-theropod-sticker.png"
+              class="legend-icon"
+              alt="Small Theropod"
+            />
+            <h4>Small Theropods</h4>
+          </div>
+          <div class="legend-item">
+            <img
+              src="large-theropod-sticker.png"
+              class="legend-icon"
+              alt="Large Theropod"
+            />
+            <h4>Large Theropods</h4>
+          </div>
+          <div class="legend-item">
+            <img
+              src="sauropods-sticker.png"
+              class="legend-icon"
+              alt="Sauropods"
+            />
+            <h4>Sauropods</h4>
+          </div>
+          <div class="legend-item">
+            <img
+              src="ornithopods-sticker.png"
+              class="legend-icon"
+              alt="Ornithopods"
+            />
+            <h4>Ornithopods</h4>
+          </div>
+          <div class="legend-item">
+            <img
+              src="ceratopsians-sticker.png"
+              class="legend-icon"
+              alt="Ceratopsians"
+            />
+            <h4>Ceratopsians</h4>
+          </div>
+          <div class="legend-item">
+            <img
+              src="armored-dinosaurs-sticker.png"
+              class="legend-icon"
+              alt="Armored Dinosaurs"
+            />
+            <h4>Armored Dinosaurs</h4>
+          </div>
+        </div>
+
+        <div class="legend-section">
+          <h2>Diet</h2>
+          <div class="legend-item">
+            <div class="legend-shape">
+              <svg width="40" height="40">
+                <circle cx="20" cy="20" r="15" stroke="#fff" stroke-width="2" />
+              </svg>
+            </div>
+            <h4>Circle = Carnivorous</h4>
+          </div>
+          <div class="legend-item">
+            <div class="legend-shape">
+              <svg width="40" height="40">
+                <rect
+                  x="5"
+                  y="5"
+                  width="30"
+                  height="30"
+                  rx="3"
+                  stroke="#fff"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h4>Square = Herbivorous</h4>
+          </div>
+          <div class="legend-item">
+            <div class="legend-shape">
+              <svg width="40" height="40">
+                <polygon
+                  points="20,5 35,35 5,35"
+                  stroke="#fff"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h4>Triangle = Omnivorous</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Importance of Fossils Section -->
+    <section class="section">
+      <h2 class="section-title">Why Fossils Matter</h2>
+      <p class="subtext">
+        Fossils allow us to reconstruct ecosystems, understand the extinction
+        patterns, follow the biological evolution, and discover life after
+        catastrophic events.
+      </p>
+      <br />
+      <br />
+      <div><img src="fossil.png" alt="dinosaur fossils" /></div>
+    </section>
+
+    <!-- Report-->
+    <section class="section">
+      <h2 class="section-title">Exhibit Summary</h2>
+      <p class="subtext">
+        This exhibit weaves together fossil locations, size dimensions, diet,
+        and geologic timescales to reveal a story of dinosaur life and their
+        final moments on Earth. Through an interactive visualization, visitors
+        can explore how different species lived, where they roamed, and how
+        global events—from asteroid impact to environmental collapse—shaped
+        their extinction. By combining scientific data with interactive visual
+        storytelling, the exhibit transforms millions of years of prehistory
+        into an engaging, data-driven journey through the last days of the
+        dinosaurs.
+
+        <br />
+        <br />
+        <strong>Design Description (Marks, Channels, Interactions)</strong>
+        <br />
+        <br />
+        Marks: Each dinosaur is shown as a custom glyph placed on a world map.
+        Color blocks, diet shapes, and summary panels act as supporting marks.
+        <br />
+        <br />
+        Channels: 
+        <br />
+        Position → fossil location (lat/long) 
+        <br />
+        <br />
+        Color → dinosaur type
+        <br />
+        <br />
+        Shape → diet (circle = carnivore, square = herbivore, triangle =
+        omnivore) 
+        <br />
+        <br />
+        Text/scale → length and summary statistics 
+        <br />
+        <br />
+        Interactions:
+        <br />
+        Visitors can filter by dinosaur type and hover over glyphs to reveal
+        details in the information panel. 
+        
+        <br />
+        <br />
+        <strong>Custom Visualization Category: Combinatorial</strong>
+        This visualization is combinatorial because it combines a
+        geographic map, custom glyphs, color/type encoding, diet-shape encoding,
+        and interactive filtering into one integrated graphic that is not a
+        standard D3 chart.
+      </p>
+    </section>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Footer -->
+    <footer class="footer">
+      Dinosaur Exhibit © 2025 — Made by Pari Pandey
+    </footer>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v3.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="visualization.js"></script>
+  </body>
+</html>
